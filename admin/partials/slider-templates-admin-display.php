@@ -26,7 +26,7 @@
         <input required type="password" name="password" class="st-credentials__password" placeholder="Password" />
         <input type="button" class="st-credentials__signin button button-primary" value="Sign In" />
         <p><strong>IMPORTANT:</strong> By signing in, these data will be verified in our server. Absolutely no data will be collected remotely on our server!</p>
-        <p>Not yet registered? <a href="https://slider-templates.com/subscription-plan" target="_blank">Join Now</a> to get full access on FREE or Premium Templates</p>
+        <p>Not yet registered? <a href="https://slider-templates.com/subscription-plan/?utm_source=plugin&utm_medium=joinnow" target="_blank">Join Now</a> to get full access on FREE or Premium Templates</p>
         <p>You don't need to register to get <strong>THEME-INCLUDED</strong> templates!</p>
     </div>
 </div>
@@ -37,10 +37,10 @@
     <?php $user_level = $user_data['is_premium'] ? 'Premium' : 'Free' ?>
     <p>You are logged in as: <strong><?php echo esc_html( $user_data['email'] ) ?></strong>. User Level: <strong><?php echo esc_html( $user_level ) ?></strong>. <a href="<?php echo admin_url() ?>admin.php?page=slider-templates&st_action=logout">Logout</a></p>
     <?php if( $user_level == 'Free' ): ?>
-    <p>You can import all 'Theme Included' Sliders and 1 free slider from ST Library with a FREE account! <br /><a href="https://slider-templates.com/subscription-plan" target="_blank">Click here</a> to <strong>GO Premium</strong> and get access to 100+ Premium Slider Revolution Templates, just for <strong>$1/month</strong>
+    <p>You can import all 'Theme Included' Sliders and 1 free slider from ST Library with a FREE account! <br /><a href="https://slider-templates.com/subscription-plan/?utm_source=plugin&utm_medium=gopremium1" target="_blank">Click here</a> to <strong>GO Premium</strong> and get access to 100+ Premium Slider Revolution Templates, just for <strong>$1/month</strong>
         <br />
         <br />
-        <a href="https://slider-templates.com/subscribe-plan/" class="button button-primary">Go Premium</a>
+        <a href="https://slider-templates.com/subscription-plan/?utm_source=plugin&utm_medium=gopremiumbutton" class="button button-primary">Go Premium</a>
     </p>
     <?php endif; ?>
 </div>
@@ -61,13 +61,13 @@
 
     <?php if( $message == 'premium-needed' ): ?>
         <div class="error notice">
-            <p>Premium Account needed to install this template. <a href="https://slider-templates.com/subscribe-plan/">Purchase now</a> $1/month</p>
+            <p>Premium Account needed to install this template. <a href="https://slider-templates.com/subscription-plan/?utm_source=plugin&utm_medium=premiumacc">Purchase now</a> $1/month</p>
         </div>
     <?php endif; ?>
 
     <?php if( $message == 'limit-end' ): ?>
         <div class="error notice">
-            <p>You can't import more than 1 free slider (theme-included templates excluded, you can install them all) <a href="https://slider-templates.com/subscribe-plan/">Purchase now</a> $1/month</p>
+            <p>You can't import more than 1 free slider (theme-included templates excluded, you can install them all) <a href="https://slider-templates.com/subscription-plan/?utm_source=plugin&utm_medium=limitend">Purchase now</a> $1/month</p>
         </div>
     <?php endif; ?>
 

@@ -13,7 +13,7 @@ Automatically import Slider Templates from slider-templates.com to your website 
 == Description ==
 
 Automatically import Slider Templates from slider-templates.com to your website with just one-click!
-This plugin is created for Slider-Templates.com users or Codeless Themes customers. 
+This plugin is created for Slider-Templates.com users or Codeless Themes customers.
 
 If you are a Codeless theme customer you can automatically install templates without the need of ST account.
 
@@ -29,7 +29,7 @@ This plugin uses an external service, <a href="https://slider-templates.com">sli
 = Privacy Policy =
 
 This plugin collects users information (IP, Location, Cookies) when the User consent it with the 'CONNECT' button or Sign In using
-Slider-templates.com Email & Password. 
+Slider-templates.com Email & Password.
 
 Anytime users can block (disconnect) the plugin from communicating with Slider-Templates Server.
 
@@ -53,6 +53,9 @@ e.g.
 
 
 == Changelog ==
+
+= 1.0.1 =
+* Added link tracking on subscribe now buttons.
 
 = 1.0 =
 * First Release
